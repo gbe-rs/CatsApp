@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848916EC2A69CB01005E9A3F /* CatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848916EB2A69CB01005E9A3F /* CatsApp.swift */; };
-		848916EE2A69CB01005E9A3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848916ED2A69CB01005E9A3F /* ContentView.swift */; };
 		848916F02A69CB02005E9A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848916EF2A69CB02005E9A3F /* Assets.xcassets */; };
 		848916F32A69CB02005E9A3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848916F22A69CB02005E9A3F /* Preview Assets.xcassets */; };
-		848916F52A69CB02005E9A3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848916F42A69CB02005E9A3F /* Persistence.swift */; };
 		848916F82A69CB02005E9A3F /* Cats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848916F62A69CB02005E9A3F /* Cats.xcdatamodeld */; };
 		848917022A69CB02005E9A3F /* CatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917012A69CB02005E9A3F /* CatsTests.swift */; };
 		8489170C2A69CB02005E9A3F /* CatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489170B2A69CB02005E9A3F /* CatsUITests.swift */; };
 		8489170E2A69CB02005E9A3F /* CatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489170D2A69CB02005E9A3F /* CatsUITestsLaunchTests.swift */; };
+		8489171B2A69CB23005E9A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489171A2A69CB23005E9A3F /* AppDelegate.swift */; };
+		8489171C2A69CB23005E9A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489171A2A69CB23005E9A3F /* AppDelegate.swift */; };
+		8489171D2A69CB23005E9A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489171A2A69CB23005E9A3F /* AppDelegate.swift */; };
+		848917222A69CB55005E9A3F /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917212A69CB55005E9A3F /* CatsViewModel.swift */; };
+		848917232A69CB55005E9A3F /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917212A69CB55005E9A3F /* CatsViewModel.swift */; };
+		848917242A69CB55005E9A3F /* CatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917212A69CB55005E9A3F /* CatsViewModel.swift */; };
+		848917262A69CB64005E9A3F /* imageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917252A69CB64005E9A3F /* imageModel.swift */; };
+		848917272A69CB64005E9A3F /* imageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917252A69CB64005E9A3F /* imageModel.swift */; };
+		848917282A69CB64005E9A3F /* imageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917252A69CB64005E9A3F /* imageModel.swift */; };
+		8489172A2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917292A69CBAD005E9A3F /* CatsGalleryViewController.swift */; };
+		8489172B2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917292A69CBAD005E9A3F /* CatsGalleryViewController.swift */; };
+		8489172C2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848917292A69CBAD005E9A3F /* CatsGalleryViewController.swift */; };
+		8489172E2A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489172D2A69CBBE005E9A3F /* CatsCollectionViewCell.swift */; };
+		8489172F2A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489172D2A69CBBE005E9A3F /* CatsCollectionViewCell.swift */; };
+		848917302A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489172D2A69CBBE005E9A3F /* CatsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,17 +49,20 @@
 
 /* Begin PBXFileReference section */
 		848916E82A69CB01005E9A3F /* Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		848916EB2A69CB01005E9A3F /* CatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsApp.swift; sourceTree = "<group>"; };
-		848916ED2A69CB01005E9A3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848916EF2A69CB02005E9A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848916F22A69CB02005E9A3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		848916F42A69CB02005E9A3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		848916F72A69CB02005E9A3F /* Cats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cats.xcdatamodel; sourceTree = "<group>"; };
 		848916FD2A69CB02005E9A3F /* CatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848917012A69CB02005E9A3F /* CatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsTests.swift; sourceTree = "<group>"; };
 		848917072A69CB02005E9A3F /* CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489170B2A69CB02005E9A3F /* CatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUITests.swift; sourceTree = "<group>"; };
 		8489170D2A69CB02005E9A3F /* CatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8489171A2A69CB23005E9A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848917212A69CB55005E9A3F /* CatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewModel.swift; sourceTree = "<group>"; };
+		848917252A69CB64005E9A3F /* imageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageModel.swift; sourceTree = "<group>"; };
+		848917292A69CBAD005E9A3F /* CatsGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsGalleryViewController.swift; sourceTree = "<group>"; };
+		8489172D2A69CBBE005E9A3F /* CatsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsCollectionViewCell.swift; sourceTree = "<group>"; };
+		848917352A69CCA1005E9A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +113,11 @@
 		848916EA2A69CB01005E9A3F /* Cats */ = {
 			isa = PBXGroup;
 			children = (
-				848916EB2A69CB01005E9A3F /* CatsApp.swift */,
-				848916ED2A69CB01005E9A3F /* ContentView.swift */,
+				848917352A69CCA1005E9A3F /* Info.plist */,
+				8489171A2A69CB23005E9A3F /* AppDelegate.swift */,
+				8489171E2A69CB27005E9A3F /* View */,
+				8489171F2A69CB33005E9A3F /* Model */,
 				848916EF2A69CB02005E9A3F /* Assets.xcassets */,
-				848916F42A69CB02005E9A3F /* Persistence.swift */,
 				848916F62A69CB02005E9A3F /* Cats.xcdatamodeld */,
 				848916F12A69CB02005E9A3F /* Preview Content */,
 			);
@@ -131,6 +147,32 @@
 				8489170D2A69CB02005E9A3F /* CatsUITestsLaunchTests.swift */,
 			);
 			path = CatsUITests;
+			sourceTree = "<group>";
+		};
+		8489171E2A69CB27005E9A3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				848917292A69CBAD005E9A3F /* CatsGalleryViewController.swift */,
+				848917202A69CB40005E9A3F /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8489171F2A69CB33005E9A3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				848917212A69CB55005E9A3F /* CatsViewModel.swift */,
+				848917252A69CB64005E9A3F /* imageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		848917202A69CB40005E9A3F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8489172D2A69CBBE005E9A3F /* CatsCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +243,7 @@
 				TargetAttributes = {
 					848916E72A69CB01005E9A3F = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					848916FC2A69CB02005E9A3F = {
 						CreatedOnToolsVersion = 13.0;
@@ -263,10 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8489171B2A69CB23005E9A3F /* AppDelegate.swift in Sources */,
+				8489172A2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */,
+				848917222A69CB55005E9A3F /* CatsViewModel.swift in Sources */,
+				8489172E2A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */,
 				848916F82A69CB02005E9A3F /* Cats.xcdatamodeld in Sources */,
-				848916F52A69CB02005E9A3F /* Persistence.swift in Sources */,
-				848916EE2A69CB01005E9A3F /* ContentView.swift in Sources */,
-				848916EC2A69CB01005E9A3F /* CatsApp.swift in Sources */,
+				848917262A69CB64005E9A3F /* imageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8489171C2A69CB23005E9A3F /* AppDelegate.swift in Sources */,
+				8489172B2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */,
+				848917232A69CB55005E9A3F /* CatsViewModel.swift in Sources */,
+				8489172F2A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */,
 				848917022A69CB02005E9A3F /* CatsTests.swift in Sources */,
+				848917272A69CB64005E9A3F /* imageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8489171D2A69CB23005E9A3F /* AppDelegate.swift in Sources */,
+				848917282A69CB64005E9A3F /* imageModel.swift in Sources */,
+				848917242A69CB55005E9A3F /* CatsViewModel.swift in Sources */,
 				8489170C2A69CB02005E9A3F /* CatsUITests.swift in Sources */,
+				8489172C2A69CBAD005E9A3F /* CatsGalleryViewController.swift in Sources */,
+				848917302A69CBBE005E9A3F /* CatsCollectionViewCell.swift in Sources */,
 				8489170E2A69CB02005E9A3F /* CatsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,12 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cats/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Cats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -443,6 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iOS.Cats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,12 +510,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Cats/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Cats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
