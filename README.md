@@ -1,4 +1,4 @@
-# CatsChallenge 🐱
+# CatsApp 🐱
 
 Desafio iOS para exibir imagens de gatos consumindo uma API pública. Desenvolvido com UIKit e integração via URLSession.
 
@@ -28,7 +28,7 @@ Desafio iOS para exibir imagens de gatos consumindo uma API pública. Desenvolvi
 
 1. Clone o projeto:
    ```bash
-   git clone https://github.com/gbe-rs/CatsChallenge.git
+   git clone https://github.com/gbe-rs/CatsApp.git
 
 2.	Rode pod install
 3.	Abra o .xcworkspace no Xcode
